@@ -1,7 +1,6 @@
 /*********************************************************************
  * $Id: config.h
  *
- * A 64 bit integer class library
  *
  * Created       : Talisma Mnauel
  * Last Modified : Edu  rdo Gonga
