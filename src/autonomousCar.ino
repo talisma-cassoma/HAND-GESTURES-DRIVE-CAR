@@ -8,9 +8,9 @@
  *
  ********************************************************************/
 
-#include "IOPorts.h"
-#include "camera.h"
-#include "RealTimeDB.h"
+#include "include/IOPorts.h"
+#include "include/camera.h"
+#include "include/RealTimeDB.h"
 
 
 void setup() { 
