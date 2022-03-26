@@ -3,8 +3,8 @@
  *
  * A 64 bit integer class library
  *
- * Created       : Uluc Saranli, 01/05/2001
- * Last Modified : Uluc Saranli, 06/27/2001
+ * Created       : Talisma Mnauel
+ * Last Modified : Edu  rdo Gonga
  *
  ********************************************************************/
 
