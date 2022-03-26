@@ -11,7 +11,7 @@
 #ifndef CARMERACONFIG_H
 #define CARMERACONFIG_H
 
-#include "include/esp_camera.h"
+#include "esp_camera.h"
 
 
 // WARNING!!! Make sure that you have either selected ESP32 Wrover Module,

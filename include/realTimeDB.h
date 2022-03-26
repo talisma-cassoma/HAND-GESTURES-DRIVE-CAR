@@ -14,8 +14,8 @@
 
 #include <IOXhop_FirebaseESP32.h>  //funcionando com a versao 5.1.1 do <arduinoJson.h>   
 #include <WiFi.h>
-#include "include/config.h"
-#include "include/MotorControl.h"
+#include "config.h"
+#include "MotorControl.h"
 
 
 #define host FIREBASE_HOST     
