@@ -5,7 +5,7 @@
 #include "IOPorts.h"
 
 
-void goesFoward(){
+void goesForward(){
   
   digitalWrite( IN1_PIN,LOW  );
   digitalWrite( IN1_PIN,HIGH );
@@ -42,7 +42,7 @@ void Stop(){
 
 void DCMotor( String cmd){
   
-       if(cmd == "FOWRD"     ) { goesFoward(); }
+       if(cmd == "FORWRD"     ) { goesForward(); }
   
   else if(cmd == "BACKWARD"  ) { goesBackward();}
   
