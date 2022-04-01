@@ -9,13 +9,15 @@ void goesFoward(){
   
   digitalWrite( IN1_PIN,LOW  );
   digitalWrite( IN1_PIN,HIGH );
+  Serial.println("going forward");
 
   }
 void goesBackward(){
   
   digitalWrite( IN1_PIN,HIGH );
   digitalWrite( IN1_PIN,LOW  );
-
+  Serial.println("going backward");
+  
   }
 void goesRight(){
   
@@ -34,6 +36,7 @@ void Stop(){
   
   digitalWrite( IN1_PIN,LOW );
   digitalWrite( IN1_PIN,LOW );
+  Serial.println("stopping");
 
   }
 
