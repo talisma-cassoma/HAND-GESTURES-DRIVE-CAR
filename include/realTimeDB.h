@@ -40,8 +40,6 @@ void connectToDatabase(void){
   
   //conectando ao firebase 
   Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
-
-  Firebase.begin("voitureautonome.firebaseio.com");
 }
 
 void mainLoop(void){
