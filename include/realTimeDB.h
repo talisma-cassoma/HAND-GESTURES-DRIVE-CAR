@@ -44,7 +44,7 @@ void connectToDatabase(void){
 
 void mainLoop(void){
   
-Firebase.stream("", [](FirebaseStream stream) {
+Firebase.stream("/command", [](FirebaseStream stream) {
     String eventType = stream.getEvent();
     eventType.toLowerCase();
      
